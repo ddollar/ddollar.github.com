@@ -1,0 +1,35 @@
+* { 
+  font-family: Georgia, serif;
+}
+
+h1 {
+  font-size: 40px;
+  padding-top: 40px;
+  padding-left: 40px;
+  margin: 0;
+}
+
+#contact {
+  position: absolute;
+  top: 40px;
+  list-style-type: none;
+  right: 80px;
+}
+
+#contact li {
+  text-align: right;
+}
+
+#repositories {
+  padding: 40px;
+  padding-top: 30px;
+}
+
+#repositories .header {
+  font-weight: bold;
+  font-size: 23px;
+}
+
+#repositories li {
+  margin-left: -0px;
+}
