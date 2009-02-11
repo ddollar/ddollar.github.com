@@ -3,33 +3,55 @@
 }
 
 h1 {
-  font-size: 40px;
-  padding-top: 40px;
-  padding-left: 40px;
+  font-size: 3.4em;
   margin: 0;
+  margin-top: 40px;
+  margin-left: 40px;
 }
 
 #contact {
   position: absolute;
-  top: 40px;
+  top: 30px;
   list-style-type: none;
-  right: 80px;
+  right: 50px;
+  padding-right: 80px;
+  background: url(http://www.gravatar.com/avatar/d7210ed93db93fbfa3de0c2215d83b9a.jpg?s=60) no-repeat;
+  background-position: center right;
 }
 
 #contact li {
   text-align: right;
 }
 
-#repositories {
-  padding: 40px;
-  padding-top: 30px;
+.repository_list {
+  padding: 45px;
+  padding-right: 80px;
+  float: left;
+  list-style-image: url(https://github.com/images/icons/public.png);
+  list-style-position: inside;
 }
 
-#repositories .header {
+.repository_list .header {
   font-weight: bold;
   font-size: 23px;
 }
 
-#repositories li {
-  margin-left: -0px;
+.repository_list ul {
+  padding-left: 20px;
+}
+
+.repository_list li {
+  margin-left: -15px;
+  font-size: 0.9em;
+}
+
+.repository_list li a {
+  position: relative;
+  top: -4px;
+  left: -3px;
+  text-decoration: none;
+}
+
+.repository_list li a:hover {
+  text-decoration: underline;
 }
